@@ -10,12 +10,119 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
   </head>
   <body>
     <div class="app">
-      <header class="container"></header>
-      <main class="container"></main>
-      <footer class="container"></footer>
+      <header class="container">
+        <img src="./assets/logo.svg" alt="Imagem do logotipo" />
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Gallery</li>
+            <li>About us</li>
+          </ul>
+        </nav>
+        <form>
+          <div class="input-wrapper">
+            <label for="search">Pesquise por imagens e coleções</label>
+            <input
+              id="search"
+              type="search"
+              placeholder="Pesquise por imagens e coleções"
+            />
+          </div>
+        </form>
+
+        <img
+          class="user-avatar"
+          src="https://randomuser.me/api/portraits/women/3.jpg"
+          alt="Imagem do usuario"
+        />
+      </header>
+      <main>
+        <div class="container">
+          <h1>Gallery</h1>
+          <section class="gallery-wrapper">
+            <figure class="item">
+              <img src="https://source.unsplash.com/random?a=1" alt="" />
+              <figcaption class="details">
+                <h2>Lorem ipsum dolor</h2>
+                <div class="tags">
+                  <ion-icon name="bookmark"></ion-icon><span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="https://source.unsplash.com/random?b=1" alt="" />
+              <figcaption class="details">
+                <h2>Lorem ipsum dolor</h2>
+                <div class="tags">
+                  <ion-icon name="bookmark"></ion-icon><span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="https://source.unsplash.com/random?c=1" alt="" />
+              <figcaption class="details">
+                <h2>Lorem ipsum dolor</h2>
+                <div class="tags">
+                  <ion-icon name="bookmark"></ion-icon><span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="https://source.unsplash.com/random?d=1" alt="" />
+              <figcaption class="details">
+                <h2>Lorem ipsum dolor</h2>
+                <div class="tags">
+                  <ion-icon name="bookmark"></ion-icon><span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="https://source.unsplash.com/random?e=1" alt="" />
+              <figcaption class="details">
+                <h2>Lorem ipsum dolor</h2>
+                <div class="tags">
+                  <ion-icon name="bookmark"></ion-icon><span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="https://source.unsplash.com/random?f=1" alt="" />
+              <figcaption class="details">
+                <h2>Lorem ipsum dolor</h2>
+                <div class="tags">
+                  <ion-icon name="bookmark"></ion-icon><span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+          </section>
+        </div>
+      </main>
+      <footer class="container">
+        <p>
+          © 2023 - Rocketseat Explorer | recreated by
+          <a href="https://github.com/vctrhugoop">Victor Hugo</a>
+        </p>
+      </footer>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
